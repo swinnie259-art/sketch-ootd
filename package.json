@@ -1,0 +1,24 @@
+{
+  "name": "sketch-ootd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.14.0",
+    "next": "^15.5.29",
+    "react": "^19",
+    "react-dom": "^19",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "typescript": "5.9"
+  }
+}
